@@ -1,0 +1,38 @@
+Título,Rentabilidade anual,Investimento mínimo,Preço Unitário,Vencimento
+Tesouro Prefixado 2028,"13.71","R$ 7,30","R$ 730,47",01/01/2028
+Tesouro Prefixado 2032,"14.01","R$ 4,31","R$ 431,13",01/01/2032
+Tesouro Prefixado com juros semestrais 2035,"14.10","R$ 8,05","R$ 805,85",01/01/2035
+Tesouro Selic 2028,"0.0522","R$ 169,51","R$ 16.951,99",01/03/2028
+Tesouro Selic 2031,"0.1037","R$ 168,77","R$ 16.877,22",01/03/2031
+Tesouro IPCA+ 2029,"7.83","R$ 34,05","R$ 3.405,99",15/05/2029
+Tesouro IPCA+ 2040,"7.14","R$ 16,11","R$ 1.611,68",15/08/2040
+Tesouro IPCA+ 2050,"6.95","R$ 8,49","R$ 849,39",15/08/2050
+Tesouro IPCA+ com juros semestrais 2035,"7.43","R$ 41,58","R$ 4.158,65",15/05/2035
+Tesouro IPCA+ com juros semestrais 2045,"7.28","R$ 40,07","R$ 4.007,59",15/05/2045
+Tesouro IPCA+ com juros semestrais 2060,"7.15","R$ 40,12","R$ 4.012,97",15/08/2060
+Tesouro Renda+ Aposentadoria Extra 2030,"7.24","R$ 17,97","R$ 1.797,74",15/12/2049
+Tesouro Renda+ Aposentadoria Extra 2035,"7.11","R$ 12,96","R$ 1.296,81",15/12/2054
+Tesouro Renda+ Aposentadoria Extra 2040,"7.03","R$ 9,37","R$ 937,09",15/12/2059
+Tesouro Renda+ Aposentadoria Extra 2045,"6.98","R$ 6,77","R$ 677,19",15/12/2064
+Tesouro Renda+ Aposentadoria Extra 2050,"6.95","R$ 4,88","R$ 488,64",15/12/2069
+Tesouro Renda+ Aposentadoria Extra 2055,"6.97","R$ 3,47","R$ 347,49",15/12/2074
+Tesouro Renda+ Aposentadoria Extra 2060,"6.98","R$ 2,47","R$ 247,62",15/12/2079
+Tesouro Renda+ Aposentadoria Extra 2065,"6.98","R$ 1,77","R$ 177,08",15/12/2084
+Tesouro Educa+ 2026,"8.17","R$ 36,23","R$ 3.623,49",15/12/2030
+Tesouro Educa+ 2027,"7.92","R$ 33,81","R$ 3.381,22",15/12/2031
+Tesouro Educa+ 2028,"7.75","R$ 31,58","R$ 3.158,08",15/12/2032
+Tesouro Educa+ 2029,"7.62","R$ 29,52","R$ 2.952,71",15/12/2033
+Tesouro Educa+ 2030,"7.53","R$ 27,59","R$ 2.759,91",15/12/2034
+Tesouro Educa+ 2031,"7.46","R$ 25,80","R$ 2.580,41",15/12/2035
+Tesouro Educa+ 2032,"7.39","R$ 24,15","R$ 2.415,91",15/12/2036
+Tesouro Educa+ 2033,"7.32","R$ 22,65","R$ 2.265,00",15/12/2037
+Tesouro Educa+ 2034,"7.27","R$ 21,22","R$ 2.122,39",15/12/2038
+Tesouro Educa+ 2035,"7.23","R$ 19,88","R$ 1.988,39",15/12/2039
+Tesouro Educa+ 2036,"7.20","R$ 18,61","R$ 1.861,60",15/12/2040
+Tesouro Educa+ 2037,"7.18","R$ 17,41","R$ 1.741,58",15/12/2041
+Tesouro Educa+ 2038,"7.16","R$ 16,29","R$ 1.629,92",15/12/2042
+Tesouro Educa+ 2039,"7.16","R$ 15,21","R$ 1.521,39",15/12/2043
+Tesouro Educa+ 2040,"7.16","R$ 14,20","R$ 1.420,19",15/12/2044
+Tesouro Educa+ 2041,"7.16","R$ 13,25","R$ 1.325,82",15/12/2045
+Tesouro Educa+ 2042,"7.15","R$ 12,39","R$ 1.239,96",15/12/2046
+Tesouro Educa+ 2043,"7.13","R$ 11,62","R$ 1.162,11",15/12/2047
