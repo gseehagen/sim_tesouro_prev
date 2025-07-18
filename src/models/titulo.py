@@ -28,7 +28,6 @@ class Titulo:
         return pd.DataFrame(dados)
 
     def gerar_fluxo_caixa(self):
-        # Exemplo simplificado: gráfico de evolução do montante
         df = self.simular_investimento(valor_inicial=1000, aporte_mensal=500, anos=10)
         plt.plot(df["Mês"], df["Montante"])
         plt.title(f"Evolução do Investimento: {self.nome}")
