@@ -22,15 +22,14 @@ Todas as premissas foram definidas buscando um equilíbrio entre a realidade do 
 
 ### Perfil do Cliente-Base
 
-* **Idade Atual:** 20 anos.
+ **Idade Atual**
 
-* **Idade de Aposentadoria:** 70 anos. A idade mínima pelo INSS é de 65 anos para homens, mas foi adotada uma margem para um planejamento mais realista e conservador.
+* **Idade de Aposentadoria**
 
-* **Expectativa de Vida:** 80 anos. Para um homem brasileiro de 20 anos, a expectativa de vida segundo a Tábua de Mortalidade do IBGE 2021 é de 74.9 anos (20 + 54.9). Adotou-se 80 anos como margem de segurança para o plano.
-
+* **Expectativa de Vida:**
     * *Fonte: [IBGE - Tábuas Completas de Mortalidade](https://www.ibge.gov.br/estatisticas/sociais/populacao/9126-tabuas-completas-de-mortalidade.html)*
 
-* **Salário Atual:** R$ 3.000,00. Valor estipulado para simular um salário inicial de um economista recém-formado, em vez de um salário de estágio.
+* **Salário Atual:**
 
 * **Renda Desejada na Aposentadoria:** R$ 10.000,00 por mês, valor considerado suficiente para um padrão de vida confortável.
 
@@ -55,24 +54,6 @@ Define o percentual da renda mensal que será aportado. Foram consideradas 3 cat
 * **MODERADO:** 15% da renda/mês.
 
 * **ARROJADO:** 25% da renda/mês.
-
-Para as simulações, foi adotado o perfil **MODERADO**, por ser uma categoria intermediária e sustentável no longo prazo.
-
-### Análise da escolha dos títulos e comparações:
-
-Ao analisar os títulos disponíveis, uma análise superficial poderia levar à escolha do Tesouro Prefixado, que no momento da coleta de dados apresentava a maior taxa de juros nominal (acima de 14% a.a.). De fato, as simulações nominais mostram que este título geraria o maior montante financeiro bruto ao final do período.
-
-No entanto, o objetivo de um plano de aposentadoria de longuíssimo prazo (40 anos de acumulação) não é simplesmente maximizar um valor nominal, mas sim garantir e maximizar o poder de compra futuro do investidor. Nesse contexto, o principal risco a ser mitigado é a incerteza inflacionária, especialmente considerando o histórico econômico do Brasil.
-
-A escolha por um título Prefixado representa uma aposta de alto risco. O investidor trava uma taxa de juros por décadas, correndo o risco de que a inflação média no período seja superior a essa taxa, o que resultaria em uma perda real de poder de compra.
-
-Por outro lado, os títulos Tesouro IPCA+ (incluindo o Tesouro Renda+) são desenhados especificamente para eliminar este risco. Eles garantem uma rentabilidade real (acima da inflação) fixa e conhecida no momento da compra (ex: 7,14% a.a.). Isso significa que, independentemente do cenário inflacionário futuro, o investidor tem a certeza de que seu poder de compra crescerá a essa taxa garantida anualmente.
-
-
-
-Conclusão da Análise:
-
-Considerando o objetivo de longo prazo e a necessidade de segurança e previsibilidade, a estratégia mais prudente e profissionalmente recomendada é focar nos títulos Tesouro IPCA+. Eles são o instrumento mais adequado para garantir que o cliente não apenas atinja sua meta financeira em termos nominais, mas que esse valor tenha o poder de compra desejado no momento da aposentadoria.
 
 
 
