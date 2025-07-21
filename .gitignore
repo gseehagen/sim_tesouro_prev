@@ -1,0 +1,21 @@
+# Arquivos e pastas gerados pelo Python
+__pycache__/
+*.pyc
+
+# Arquivos gerados pelo Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos de ambiente/IDE (exemplos comuns, para evitar salvar configurações pessoais)
+.vscode/
+.idea/
+.env
+
+# Arquivos de saída (opcional, mas recomendado)
+# Isso evita que os gráficos gerados sejam salvos no Git,
+# pois eles podem ser recriados a qualquer momento rodando o notebook.
+*.png
+*.jpg
+
+# Pasta de ambiente virtual (se você estiver usando uma)
+venv/
+.venv/
