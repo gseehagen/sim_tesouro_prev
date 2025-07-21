@@ -16,22 +16,18 @@ O objetivo era criar um relatório detalhado de um plano de aposentadoria para u
 - **Modelagem de Premissas:** Permite a customização de todas as variáveis do cliente, como idade, perfil de investidor, metas financeiras e modelo de carreira.
 
 
-## Premissas do Modelo de Simulação
-
-Todas as premissas foram definidas buscando um equilíbrio entre a realidade do cliente (um jovem estudante) e a conjuntura econômica brasileira, conforme solicitado no trabalho.
-
 ### Perfil do Cliente-Base
 
  **Idade Atual**
 
 * **Idade de Aposentadoria**
 
-* **Expectativa de Vida:**
+* **Expectativa de Vida:** Pode ser calculada com base na idade do perfil analisado.
     * *Fonte: [IBGE - Tábuas Completas de Mortalidade](https://www.ibge.gov.br/estatisticas/sociais/populacao/9126-tabuas-completas-de-mortalidade.html)*
 
 * **Salário Atual:**
 
-* **Renda Desejada na Aposentadoria:** R$ 10.000,00 por mês, valor considerado suficiente para um padrão de vida confortável.
+* **Renda Desejada na Aposentadoria:** 
 
 
 ### Modelo de Progressão de Carreira
