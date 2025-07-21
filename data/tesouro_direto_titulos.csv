@@ -2,8 +2,6 @@ Título,Rentabilidade anual,Investimento mínimo,Preço Unitário,Vencimento
 Tesouro Prefixado 2028,"13.71","R$ 7,30","R$ 730,47",01/01/2028
 Tesouro Prefixado 2032,"14.01","R$ 4,31","R$ 431,13",01/01/2032
 Tesouro Prefixado com juros semestrais 2035,"14.10","R$ 8,05","R$ 805,85",01/01/2035
-Tesouro Selic 2028,"0.0522","R$ 169,51","R$ 16.951,99",01/03/2028
-Tesouro Selic 2031,"0.1037","R$ 168,77","R$ 16.877,22",01/03/2031
 Tesouro IPCA+ 2029,"7.83","R$ 34,05","R$ 3.405,99",15/05/2029
 Tesouro IPCA+ 2040,"7.14","R$ 16,11","R$ 1.611,68",15/08/2040
 Tesouro IPCA+ 2050,"6.95","R$ 8,49","R$ 849,39",15/08/2050
