@@ -125,11 +125,11 @@ class RelatorioInvestimento:
                 fontsize=16, fontweight='bold', pad=20)
         plt.grid(True, axis='y', alpha=0.3, linestyle='--')
 
-        # Formatação do eixo Y para mostrar como moeda
+        # Formatação do eixo Y para mostrar como moeda.
         ax = plt.gca()
         ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f'R$ {x:,.0f}'))
 
-        # Adicionar o valor no topo da primeira e da última barra para dar contexto
+        # Adicionar o valor no topo da primeira e da última barra para dar contexto.
         if len(bars) > 0:
                 primeira_barra = bars[0]
                 ultima_barra = bars[-1]

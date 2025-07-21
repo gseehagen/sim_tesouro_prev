@@ -16,7 +16,6 @@ class Investidor:
     def __init__(self, idade, idade_aposentadoria, renda_atual, expectativa_vida, 
                  renda_desejada, titulo: Titulo, perfil: PerfilInvestidor, 
                  aumento_salario, aporte_unico=0):
-        """Inicializa um objeto Investidor com todas as suas premissas."""
         self.idade = idade  
         self.idade_aposentadoria = idade_aposentadoria 
         self.renda_atual = renda_atual
@@ -55,7 +54,6 @@ class Investidor:
             return fv / n
         return fv * i / ((1 + i)**n - 1)
     
-# Em investidor.py
 
     def simular_investimento_mensal_evolucao(self, titulo):
         salario = self.renda_atual
@@ -71,10 +69,8 @@ class Investidor:
             
             if mes % 12 == 0:
                 evolucao.append(montante)
-                ano_de_carreira += 1  # <<< CORREÇÃO 2: Incrementar o NÚMERO a cada ano.
+                ano_de_carreira += 1  # Incrementa um ano de carreira a cada iteração
                 
-                # Lógica de progressão de carreira em fases
-                # Agora a comparação 'ano_de_carreira <= 10' funcionará corretamente.
                 if ano_de_carreira <= 10:
                     salario *= (1 + 0.05) 
                 elif ano_de_carreira <= 25:
@@ -90,7 +86,7 @@ class Investidor:
         evolucao_aportes = []
         salario_atual = self.renda_atual
         
-        # Alteramos o loop para ter um contador de 'ano_de_carreira'
+        # Contador de 'ano de carreira
         for ano_de_carreira in range(1, self.anos_ate_aposentadoria() + 1):
             
             # Primeiro, calcula e armazena o aporte do ano atual
@@ -99,11 +95,11 @@ class Investidor:
             
             # Depois, calcula o novo salário para o ANO SEGUINTE
             # com base na fase da carreira
-            if ano_de_carreira <= 10:         # Fase 1: Primeiros 10 anos
+            if ano_de_carreira <= 10:         
                 salario_atual *= (1 + 0.05)
-            elif ano_de_carreira <= 25:       # Fase 2: Do 11º ao 25º ano
+            elif ano_de_carreira <= 25:       
                 salario_atual *= (1 + 0.025)
-            else:                             # Fase 3: Restante do tempo
+            else:                             
                 salario_atual *= (1 + 0.01)
                 
         return evolucao_aportes
