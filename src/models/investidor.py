@@ -35,14 +35,6 @@ class Investidor:
     def calcular_valor_necessario_aposentadoria(self):
         anos_aposentadoria = self.calcular_tempo_aposentado()
         return self.renda_desejada * 12 * anos_aposentadoria
-    
-    def simular_aporte_unico_evolucao(self, titulo):
-        anos = self.anos_ate_aposentadoria()
-        evolucao = []
-        for ano in range(anos + 1):
-            valor = self.aporte_unico * (1 + titulo.taxa_juros_anual) ** ano
-            evolucao.append(valor)
-        return evolucao
 
     def calcular_investimento_mensal_necessario(self):
         taxa_juros_anual = self.titulo.taxa_juros_anual
@@ -104,9 +96,9 @@ class Investidor:
                 
         return evolucao_aportes
 
-    def calcular_aporte_unico_equivalente(self, titulo_base):
+    def calcular_aporte_unico_equivalente(self, titulo):
         fv = self.calcular_valor_necessario_aposentadoria()
-        taxa_juros_anual = titulo_base.taxa_juros_anual
+        taxa_juros_anual = titulo.taxa_juros_anual
         n_anos = self.anos_ate_aposentadoria()
         pv = fv / ((1 + taxa_juros_anual) ** n_anos)
         return pv
@@ -115,3 +107,13 @@ class Investidor:
     def calcular_juro_real(self, taxa_nominal, taxa_inflacao):
         #Calcula a taxa de juro real com base em uma taxa nominal e na inflação.
         return ((1 + taxa_nominal) / (1 + taxa_inflacao)) - 1
+    
+
+    def simular_aporte_unico_evolucao(self, titulo):
+        anos = self.anos_ate_aposentadoria()
+        evolucao = []
+        aporte_unico = self.calcular_aporte_unico_equivalente(titulo)
+        for ano in range(anos + 1):
+            valor = aporte_unico * (1 + titulo.taxa_juros_anual) ** ano
+            evolucao.append(valor)
+        return evolucao
