@@ -86,4 +86,4 @@ O paradigma escolhido foi o de OOP, pois o problema se divide naturalmente em 3 
 
 2.  Instale as dependências necessárias: `pip install pandas matplotlib numpy jupyterlab`.
 
-3.  Abra e execute as células do notebook `test.ipynb`. As premissas do cliente podem ser alteradas na Célula 2, e as análises serão geradas sequencialmente.
+3.  Abra e execute as células do notebook `test.ipynb`. As premissas do cliente podem ser alteradas na Célula 3, e as análises serão geradas sequencialmente.
