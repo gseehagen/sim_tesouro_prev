@@ -117,3 +117,28 @@ class Investidor:
             valor = aporte_unico * (1 + titulo.taxa_juros_anual) ** ano
             evolucao.append(valor)
         return evolucao
+    
+
+    def renda_aposentadoria(self, titulo):
+        anos_aposentados = self.calcular_tempo_aposentado()
+        patrimonio = self.simular_investimento_mensal_evolucao(titulo)[-1]
+        renda_mensal = patrimonio / (anos_aposentados * 12)
+        return renda_mensal
+
+    def simular_deplecao_patrimonio(self,titulo):
+        anos_aposentados = self.calcular_tempo_aposentado()
+        evolucao = []
+        patrimonio = self.patrimonio_final(titulo)
+        renda = patrimonio/ (anos_aposentados*12)
+        for ano in range(anos_aposentados + 1):
+            if ano == 0:
+                evolucao.append(patrimonio)
+            else:
+                patrimonio -= renda * 12
+                evolucao.append(patrimonio)
+        return evolucao
+    
+    def patrimonio_final(self, titulo):
+        evolucao = self.simular_investimento_mensal_evolucao(titulo)
+        return evolucao[-1] * 0.85
+    

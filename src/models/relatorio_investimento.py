@@ -1,3 +1,4 @@
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -194,6 +195,39 @@ class RelatorioInvestimento:
         plt.grid(True, alpha=0.3)
         ax = plt.gca()
         ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f'R$ {x/1000000:.2f}M')) # Formatando para Milhões (M)
+        
+        plt.tight_layout()
+        plt.show()
+
+    def plotar_deplecao_patrimonio(self, titulo):
+        evolucao_deplecao = self.investidor.simular_deplecao_patrimonio(titulo)
+        anos = list(range(len(evolucao_deplecao)))
+        
+        plt.figure(figsize=(12, 8))
+        plt.plot(anos, evolucao_deplecao, 
+                linewidth=3, 
+                color='#C73E1D',
+                marker='o',
+                markersize=5)
+        plt.fill_between(anos, evolucao_deplecao, alpha=0.3, color='#C73E1D')
+        
+        plt.xlabel('Anos', fontsize=12, fontweight='bold')
+        plt.ylabel('Patrimônio Depletado (R$)', fontsize=12, fontweight='bold')
+        plt.title('Evolução do despêndio do patrimônio durante o período de aposentadoria', 
+                fontsize=16, fontweight='bold', pad=20)
+        plt.grid(True, alpha=0.3)
+        
+        # Formatação dos valores
+        ax = plt.gca()
+        ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f'R$ {x/1000:.0f}K'))
+        
+        # Adiciona anotação do valor final
+        plt.annotate(f'R$ {evolucao_deplecao[-1]:,.0f}', 
+                xy=(anos[-1], evolucao_deplecao[-1]), 
+                xytext=(anos[-1]-5, evolucao_deplecao[-1]*1.1),
+                fontsize=12, fontweight='bold',
+                ha='center',
+                arrowprops=dict(arrowstyle='->', color='black'))
         
         plt.tight_layout()
         plt.show()
