@@ -8,3 +8,4 @@ __pycache__/
 *.jpg
 venv/
 .venv/
+src/models/__pycache__/investidor.cpython-313.pyc
