@@ -11,10 +11,9 @@ O objetivo era criar um relatório detalhado de um plano de aposentadoria para u
 
 - **Análise Comparativa:** Compara o desempenho do plano de investimentos em diferentes títulos públicos (Prefixados, IPCA+, etc.).
 
-- **Geração de Relatórios Visuais:** Plota gráficos claros e informativos sobre a evolução do patrimônio, o crescimento dos aportes e comparações entre estratégias (aporte único vs. mensal).
+- **Geração de Relatórios Visuais:** Plota gráficos claros e informativos sobre a evolução do patrimônio, evolução dos aportes, dispêndio do patrimônio e visualização do ganho real de títulos IPCA + se comparados com títulos de taxas nominais. 
 
-- **Modelagem de Premissas:** Permite a customização de todas as variáveis do cliente, como idade, perfil de investidor, metas financeiras e modelo de carreira.
-
+- **Modelagem de Premissas:** Permite a customização de todas as variáveis do cliente, como idade, perfil de investidor e progressão de carreira.
 
 ### Perfil do Cliente-Base
 
@@ -25,7 +24,7 @@ O objetivo era criar um relatório detalhado de um plano de aposentadoria para u
 * **Expectativa de Vida:** Pode ser calculada com base na idade do perfil analisado.
     * *Fonte: [IBGE - Tábuas Completas de Mortalidade](https://www.ibge.gov.br/estatisticas/sociais/populacao/9126-tabuas-completas-de-mortalidade.html)*
 
-* **Salário Atual:**
+* **Salário Atual**
 
 * **Renda Desejada na Aposentadoria:** 
 
@@ -78,6 +77,6 @@ O paradigma escolhido foi o de OOP, pois o problema se divide naturalmente em 3 
 
 1.  Certifique-se de que o arquivo `tesouro_direto_titulos.csv` e `historico_ipca.csv` está na pasta correta, conforme especificado no notebook.
 
-2.  Instale as dependências necessárias: `pip install pandas matplotlib numpy jupyterlab`.
+2.  Instale as dependências necessárias com `requirements.txt`
 
-3.  Abra e execute as células do notebook `geracao.ipynb`. As premissas do cliente podem ser alteradas na Célula 3, e as análises serão geradas sequencialmente.
+3.  Abra e execute as células do notebook `geracao.py`. As premissas do cliente podem ser alteradas na segunda seção do arquivo. As análises serão geradas sequencialmente.
